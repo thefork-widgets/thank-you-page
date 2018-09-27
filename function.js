@@ -12,6 +12,8 @@
      console.log(window.location);
     
       if(pathname.search( 'thank-you' )!=-1){
-          window.open("http://www.w3schools.com");
+          window.open("http://www.w3schools.com"); // Para abrir pestaña nueva
+          window.top.location.href= "http://www.w3schools.com"; // Para abrir en la misma ventana
+  
       }
 </script>
