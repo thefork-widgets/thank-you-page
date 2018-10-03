@@ -1,9 +1,9 @@
-/******************************************************/
-/*                                                    */
-/*     Abre un url cuando se confirma la reserva      */
-/*     Válido para registrar objetivos con GA         */
-/*                                                    */
-/******************************************************/
+/************************************************************/
+/*                                                          */
+/*     Open a custom url when the reservation is confirmed  */ 
+/*       Useful record objectives with Google Analytics     */
+/*                                                          */
+/************************************************************/
 
 <script type="text/javascript">
      var pathname = window.location.pathname;
@@ -12,8 +12,8 @@
      console.log(window.location);
     
       if(pathname.search( 'thank-you' )!=-1){
-          window.open("http://www.w3schools.com"); // Para abrir pestaña nueva
-          window.top.location.href= "http://www.w3schools.com"; // Para abrir en la misma ventana
+          window.open("http://www.w3schools.com"); // To open a new tab
+          window.top.location.href= "http://www.w3schools.com"; // To open in the same window
   
       }
 </script>
