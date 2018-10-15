@@ -12,8 +12,8 @@
      console.log(window.location);
     
       if(pathname.search( 'thank-you' )!=-1){
-          window.open("http://www.w3schools.com"); // To open a new tab
-          window.top.location.href= "http://www.w3schools.com"; // To open in the same window
+          window.open("https://github.com/thefork-widgets"); // To open a new tab
+          window.top.location.href= "https://github.com/thefork-widgets"; // To open in the same window
   
       }
 </script>
