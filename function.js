@@ -17,3 +17,23 @@
   
       }
 </script>
+
+/**************************************************************/
+/*                                                            */
+/*                In several languages:                       */
+/*                                                            */
+/**************************************************************/
+
+<script type="text/javascript">
+     var pathname = window.location.pathname;
+     
+     console.log(pathname);
+     console.log(window.location);
+    
+      if(pathname.search( 'thank-you' )!=-1) && pathname.search('fr_FR')!=-1{
+          window.top.location.href= "https://github.com/thefork-widgets"; // FR
+  
+      }else{
+      	  window.top.location.href= "https://github.com/thefork-widgets"; // EN
+      }
+</script>
