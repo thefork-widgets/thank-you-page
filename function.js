@@ -30,10 +30,13 @@
      console.log(pathname);
      console.log(window.location);
     
-      if(pathname.search( 'thank-you' )!=-1) && pathname.search('fr_FR')!=-1{
-          window.top.location.href= "https://github.com/thefork-widgets"; // FR
-  
-      }else{
-      	  window.top.location.href= "https://github.com/thefork-widgets"; // EN
+      if(pathname.search( 'thank-you' )!=-1){
+          if(pathname.search('fr_FR')!=-1){
+               window.top.location.href= "https://github.com/thefork-widgets"; // FR
+          }else if(pathname.search('pt_PT')!=-1){
+      	     window.top.location.href= "https://github.com/thefork-widgets"; // PT
+          }else{
+               window.top.location.href= "https://github.com/thefork-widgets"; // EN
+          }
       }
 </script>
