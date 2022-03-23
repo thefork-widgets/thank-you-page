@@ -6,15 +6,10 @@
 /**************************************************************/
 
 <script type="text/javascript">
-     var pathname = window.location.pathname;
-     
-     console.log(pathname);
-     console.log(window.location);
     
-      if(pathname.search( 'thank-you' )!=-1){
+      if(window.location.href.search( 'thank-you' )!=-1){
           window.open("https://github.com/thefork-widgets"); // To open a new tab
-          window.top.location.href= "https://github.com/thefork-widgets"; // To open in the same window
-  
+          window.top.location.href= "https://github.com/thefork-widgets"; // To open in the same window 
       }
 </script>
 
@@ -25,12 +20,8 @@
 /**************************************************************/
 
 <script type="text/javascript">
-     var pathname = window.location.pathname;
-     
-     console.log(pathname);
-     console.log(window.location);
     
-      if(pathname.search( 'thank-you' )!=-1){
+      if(window.location.href.search( 'thank-you' )!=-1){
           if(pathname.search('fr_FR')!=-1){
                window.top.location.href= "https://github.com/thefork-widgets"; // FR
           }else if(pathname.search('pt_PT')!=-1){
