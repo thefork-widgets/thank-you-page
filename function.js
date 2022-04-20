@@ -22,12 +22,14 @@
 <script type="text/javascript">
     
       if(window.location.href.search( 'thank-you' )!=-1){
-          if(pathname.search('fr_FR')!=-1){
-               window.top.location.href= "https://github.com/thefork-widgets"; // FR
-          }else if(pathname.search('pt_PT')!=-1){
-      	     window.top.location.href= "https://github.com/thefork-widgets"; // PT
+          if(window.location.href.search('es_ES')!=-1){
+               window.top.location.href= "https://github.com/thefork-widget";
+          }else if(window.location.href.search('fr_FR')!=-1){
+             window.top.location.href= "https://github.com/thefork-widget";
+          }else if(window.location.href.search('nl_NL')!=-1){
+             window.top.location.href= "https://github.com/thefork-widget";
           }else{
-               window.top.location.href= "https://github.com/thefork-widgets"; // EN
+               window.top.location.href= "https://github.com/thefork-widget";
           }
       }
 </script>
